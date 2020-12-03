@@ -1,0 +1,119 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* Navbar Styles */
+.navbar {
+  background-color: #FF0000 !important;
+}
+
+.navbar-brand, .nav-link{
+  color: #fff !important;
+}
+
+.navbar-brand:hover, .nav-link:hover{
+  color: silver !important ;
+}
+
+.dropdown-menu {
+  background-color: #00FDFF !important;
+}
+
+@media (max-width: 600px) {
+    .carousel {
+    display: none;
+  }
+}
+
+.carousel-caption {
+  background-color: rgb(0,0,0,0.5);
+  width: 40X;
+  margin: auto;
+}
+
+.fa-row {
+ background-color: #3380FF;
+ text-align: center;
+ padding-top: 35px;
+ padding-bottom: 35px;
+ color: #ffffff;
+}
+
+.fab {
+  font-size: 60px;
+}
+
+.fab:hover {
+  color: silver;
+  transform: scale(1.1);
+}
+
+.fab-link:hover {
+  color: silver;
+  font-weight: bold;
+}
+
+.fab-link {
+  color: #ffffff;
+}
+
+.fab-link:hover {
+  color: silver;
+  text-decoration: none;
+}
+
+
+.footer-row {
+  background-color: #3380FF;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.footer-row a {
+  color: #ffffff;
+}
+
+.footer-row a:hover {
+  color: silver;
+  text-decoration: none;
+}
+
+.project-videos {
+  text-align: center;
+  padding: 20px 0px 20px 0px; /*top right bottom left*/
+}
+
+video {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.gallery-row {
+  text-align: center;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.cropped {
+  width: 300px;
+  height: 300px;
+}
+
+.cropped-1 {
+  object-fit: cover;
+}
+
+.cropped-2 {
+  object-fit: cover;
+}
+
+.cropped-3 {
+  object-fit: cover;
+}
